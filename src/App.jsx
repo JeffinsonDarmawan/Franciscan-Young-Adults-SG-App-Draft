@@ -216,7 +216,7 @@ function Hero({onNav}){const[op,sO]=useState(0);useEffect(()=>{setTimeout(()=>sO
   <section id="Home" style={{minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center",position:"relative",overflow:"hidden"}}>
     <div style={{position:"absolute",inset:0,zIndex:0}}><img src={IMG_PANO} alt="Assisi" style={{width:"100%",height:"100%",objectFit:"cover",filter:"saturate(0.7) brightness(0.55)"}}/><div style={{position:"absolute",inset:0,background:"linear-gradient(180deg, rgba(44,24,16,0.3) 0%, rgba(44,24,16,0.6) 55%, rgba(44,24,16,0.95) 100%)"}}/></div>
     <div style={{position:"relative",zIndex:1,textAlign:"center",padding:"0 24px",maxWidth:800,opacity:op,transform:op?"translateY(0)":"translateY(40px)",transition:"all 1.2s cubic-bezier(0.25,0.46,0.45,0.94)"}}>
-      <div style={{fontFamily:N,fontSize:12,fontWeight:700,letterSpacing:"0.25em",textTransform:"uppercase",color:C.sage,marginBottom:24}}>Franciscan Young Adults</div>
+      <div style={{fontFamily:N,fontSize:12,fontWeight:700,letterSpacing:"0.25em",textTransform:"uppercase",color:C.sage,marginBottom:24}}>Franciscan Young Adults of Singapore</div>
       <h1 style={{fontFamily:S,fontSize:"clamp(44px,7.5vw,86px)",fontWeight:300,color:C.cream,lineHeight:1.08,margin:"0 0 12px"}}>Peace<span style={{color:C.warm}}> & </span>Good</h1>
       <div style={{width:60,height:2,background:C.warm,margin:"24px auto",opacity:0.6}}/>
       <p style={{fontFamily:N,fontSize:"clamp(15px,2vw,19px)",color:"rgba(245,240,232,0.8)",lineHeight:1.7,maxWidth:540,margin:"0 auto 40px",fontWeight:300}}>Discover a spirituality of simplicity, joy, and kinship with all creation — rooted in St. Francis, alive in community today.</p>
@@ -574,7 +574,7 @@ function Footer({onNav}){return(
       <div style={{fontFamily:S,fontSize:15,fontStyle:"italic",color:"rgba(245,240,232,0.3)",lineHeight:1.6}}>"All the darkness in the world cannot extinguish the light of a single candle."<br/><span style={{fontSize:12,fontStyle:"normal"}}>— St. Francis</span></div>
       </FI2>
     </div>
-    <div style={{marginTop:50,fontFamily:N,fontSize:10,color:"rgba(245,240,232,0.15)",letterSpacing:"0.05em"}}>Made with ♥ by Franciscan Young Adults</div>
+    <div style={{marginTop:50,fontFamily:N,fontSize:10,color:"rgba(245,240,232,0.15)",letterSpacing:"0.05em"}}>Made with ♥ by Franciscan Young Adults of Singapore</div>
   </section>
 );}
 
